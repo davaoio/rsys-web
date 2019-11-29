@@ -1,3 +1,84 @@
-body {
-  background: red
+$darkGreen: #2D673C;
+$lightGreen: #6A9C78;
+html, body, #root, #root>div {
+  height: 100%
+}
+
+#header-nav{
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  background: #Ffff;
+  .logo-header {
+    display: flex;
+    align-items: center;
+  }
+  .header-menus {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 75px;
+    align-items: center;
+    a {
+      margin-right: 70px;
+      color: $darkGreen;
+      text-decoration: none;
+      font-size: 18px;
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+}
+
+.header-sign-up-btn {
+  width: 115px;
+  height: 40px;
+  box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.12);
+  border-radius: 45px;
+  border: none;
+  background: #FFF1BC;
+  &:focus {
+    outline: none;
+  }
+}
+
+.home-content {
+  padding-top: 105px;
+  .home-heading {
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 49px;
+    margin: 0px;
+  }
+  .home-subheadng {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+  }
+}
+
+//home search
+.home-search-container {
+  margin-top: 60px;
+}
+
+.r-select {
+  border: none;
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.12);
+  &:focus {
+    outline: none;
+  }
+}
+.home-search-btn {
+  height: 50px;
+  border-radius: 45px;
+  width: 255px;
+  border: none;
+  color: #ffff;
+  background: $lightGreen;
+  &:focus {
+    outline: none;
+  }
 }
