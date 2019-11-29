@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../base/header'
 import changeBodyBackground from '../../helpers/index'
-const bgImage = require('./background.jpg')
+const bgImage = require('../../static/img/background.jpg')
 
 export default class HomeComponent extends React.Component {
   constructor () {
