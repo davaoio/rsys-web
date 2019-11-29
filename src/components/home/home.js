@@ -25,17 +25,17 @@ export default class HomeComponent extends React.Component {
             </div>
             <div className="row home-search-container">
               <div className="col-3">
-                <select className="r-select">
+                <select className="r-input">
                   <option value="">Country</option>
                 </select>
               </div>
               <div className="col-3">
-                <select className="r-select">
+                <select className="r-input">
                   <option value="">State/Region</option>
                 </select>
               </div>
               <div className="col-3">
-                <select className="r-select">
+                <select className="r-input">
                   <option value="">City</option>
                 </select>
               </div>

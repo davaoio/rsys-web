@@ -22,6 +22,7 @@ ReactDOM.render(
         <div className="app-container">
           <Route exact path="/" component={components.HomeComponent}/>
           <Route path="/about/" component={components.AboutComponent}/>
+          <Route exact path="/signup/tenant" component={components.SignUpTenantComponent}/>
         </div>
     </Router>
   </Provider>, document.getElementById('root')
